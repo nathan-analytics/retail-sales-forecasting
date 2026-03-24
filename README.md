@@ -1,6 +1,6 @@
 # Retail Sales Forecasting & Trend Analysis
 
-Retail sales forecasting project using Python and Power BI to analyze trends, identify seasonality, and predict future performance.
+End-to-end retail sales forecasting project using Python and Power BI to analyze trends, identify seasonality, and predict future performance.
 
 ## Dashboard Preview
 <img width="1155" height="649" alt="forecast-overview" src="https://github.com/user-attachments/assets/2d8298a0-8586-4281-8460-e0ddf273ea0b" />
@@ -10,7 +10,9 @@ Retail sales forecasting project using Python and Power BI to analyze trends, id
 
 ## Project Overview
 This project analyzes historical retail sales data to identify trends, evaluate seasonality, and forecast future sales performance. The goal was to simulate a real-world analytics workflow by transforming cleaned transactional data into a monthly time series, building a forecasting model in Python, and presenting insights through a Power BI dashboard.
+
 The analysis focused on understanding historical sales patterns, smoothing short-term fluctuations with rolling averages, and generating a 6-month sales forecast to support short-term planning and decision-making.
+
 ## Tools Used
 - Python
 - Pandas
@@ -50,32 +52,40 @@ retail-sales-forecasting/
 
 ## Data Preparation
 The project began with a cleaned retail orders dataset prepared in a previous analysis. For this project, the dataset was validated in Python to confirm date formatting, numeric fields, missing values, duplicates, and overall readiness for time series analysis.
+
 The transactional data was then aggregated to the monthly level to create a time series dataset containing:
  - total sales
  - total profit
  - 3-month rolling sales trend
  - 3-month rolling profit trend
 
+Intermediate datasets were exported to support transparency and reproducibility of the analysis pipeline.
+
 ---
 
 ## Forecasting Approach
 A forecasting model was built in Python using Prophet. Historical monthly sales were reformatted into the required time series structure and used to generate a 6-month sales forecast.
+
 To support dashboard development, forecast outputs were exported into separate analysis files, including:
  - monthly sales time series data
  - detailed forecast output
-a combined actual vs forecast dataset for Power BI visualization
+ - a combined actual vs forecast dataset for Power BI visualization
 
 ---
 
 ## Dashboard Overview
-## Page 1: Sales Forecast & Performance Overview
+
+### Page 1: Sales Forecast & Performance Overview
+
 This page highlights:
  - total historical sales
  - projected sales for the next 6 months
  - minimum and maximum expected sales
  - actual vs forecasted sales trend
  - high-level forecast insights
-## Page 2: Sales Trends and Performance Drivers
+
+### Page 2: Sales Trends and Performance Drivers
+
 This page highlights:
  - monthly sales trend
  - 3-month rolling sales trend
@@ -96,6 +106,7 @@ This page highlights:
 
 ## Business Impact
 This analysis demonstrates how historical sales data can be used not only to understand past performance, but also to support future planning. The forecast suggests the business is positioned for steady short-term revenue growth, while the historical trend analysis highlights recurring demand patterns and profitability fluctuations that may influence planning decisions.
+
 ## Skills Demonstrated
  - Data validation and preparation in Python
  - Time series transformation and trend analysis
