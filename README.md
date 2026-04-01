@@ -1,102 +1,95 @@
-# Retail Sales Forecasting & Trend Analysis  
-Python + Power BI  
+# Retail Sales Forecasting & Trend Analysis
 
-Built a time series forecasting model to analyze sales trends, identify seasonality, and predict future performance.
+Forecasted retail sales trends using Python to support inventory planning, staffing, and business decision-making.
 
----
+## Project Summary
 
-## Dashboard Preview  
-<img width="1155" height="649" alt="forecast-overview" src="https://github.com/user-attachments/assets/2d8298a0-8586-4281-8460-e0ddf273ea0b" />
+Analyzed historical retail sales data and built a time series forecasting model to predict the next 6 months of performance.
 
-<img width="1137" height="652" alt="sales-trends-and-performance-drivers" src="https://github.com/user-attachments/assets/10761171-845a-4ec1-b47c-aee663f0aabc" />
+Key findings:
+- Sales show consistent upward growth with clear seasonal demand patterns
+- Forecast indicates stable short-term growth within a predictable range
+- Peak sales periods can be anticipated for better planning
+- Profit is more volatile than sales, highlighting margin instability
 
----
+Business impact:
+- Enables proactive inventory and staffing decisions
+- Helps align marketing with high-demand periods
+- Supports better financial planning through forward-looking insights
 
-## 📄 Case Study  
-[Retail Sales Forecasting.pdf](https://github.com/user-attachments/files/26418328/Retail.Sales.Forecasting.pdf)
+## Dashboard Preview
 
----
+![Forecast Overview](./06_screenshots/forecast-overview.png)  
+![Sales Trends and Performance Drivers](./06_screenshots/sales-trends-and-performance-drivers.png)
 
-## Key Insights  
-• Sales show a consistent upward trend over time  
-• Forecast predicts continued short-term growth within a stable range  
-• Sales exhibit clear seasonal patterns with recurring demand spikes  
-• Profit trends follow revenue but show higher volatility  
-• Rolling averages highlight sustained growth periods and short-term fluctuations  
+## Case Study
 
----
+[Retail Sales Forecasting Case Study](case_study.pdf)
 
-## Business Questions  
-• What trends and patterns exist in historical sales data?  
-• Is there evidence of seasonality in sales performance?  
-• What are the expected sales for the next 6 months?  
-• How stable or volatile are future sales projections?  
+## Key Insights
 
----
+- Sales trend upward over time with consistent growth patterns
+- Clear seasonality with recurring demand spikes during peak periods
+- Forecast shows stable growth with no major short-term declines
+- Profit is less stable than revenue, indicating margin variability
+- Rolling averages confirm sustained growth with short-term fluctuations
 
-## Project Overview  
-This project analyzes historical retail sales data to identify trends and forecast future performance.
+## Project Overview
 
-The workflow simulates a real-world analytics process:
-• Validated and prepared data using Python  
-• Transformed transactional data into a monthly time series  
-• Built a forecasting model using Prophet  
-• Generated a 6-month sales forecast  
-• Visualized results in Power BI  
+This project simulates a real-world forecasting workflow by transforming transactional data into a monthly time series and building a predictive model.
 
-The final output combines historical trends and forecasted data to support planning and decision-making.
+Workflow:
+- Cleaned and validated raw data using Python
+- Aggregated transactional data into monthly metrics
+- Built a forecasting model using Prophet
+- Generated a 6-month sales forecast
+- Visualized trends and predictions in Power BI
 
----
+## Data Preparation
 
-## Tools Used  
-Python (Pandas, Prophet), Power BI  
+- Validated date formats, numeric fields, and missing values
+- Aggregated transaction-level data to monthly level
+- Created key metrics:
+  - Total sales
+  - Total profit
+  - 3-month rolling sales trend
+  - 3-month rolling profit trend
 
----
+## Forecasting Approach
 
-## Dataset  
-Monthly aggregated retail sales data derived from transactional orders  
+- Built a time series forecasting model using Prophet
+- Generated a 6-month forward-looking sales prediction
+- Created datasets for:
+  - Monthly sales time series
+  - Forecast outputs
+  - Actual vs forecast comparison
 
----
+## Dashboard Features
 
-## Data Preparation  
-• Validated date formats, numeric fields, and missing values  
-• Aggregated transactional data to monthly level  
-• Created key metrics:
-  • total sales  
-  • total profit  
-  • 3-month rolling sales trend  
-  • 3-month rolling profit trend  
+- Historical vs forecasted sales comparison
+- Actual vs predicted trend visualization
+- Monthly sales and profit trends
+- Rolling average trend analysis
+- Seasonality insights and performance patterns
 
----
+## Business Recommendations
 
-## Forecasting Approach  
-• Built a forecasting model using Prophet  
-• Generated a 6-month forward-looking sales prediction  
-• Created datasets for:
-  • monthly sales time series  
-  • forecast outputs  
-  • actual vs forecast comparison  
+- Use forecasts to guide inventory and staffing decisions
+- Align marketing campaigns with seasonal demand peaks
+- Monitor profit volatility to improve margin consistency
+- Continuously retrain the model with new data to maintain accuracy
 
----
+## Tools Used
 
-## Dashboard Features  
-• Total historical vs forecasted sales  
-• Actual vs forecast trend comparison  
-• Monthly sales and profit trends  
-• Rolling average trend analysis  
-• Seasonality and performance insights  
+- Python (Pandas, Prophet)
+- Power BI
 
----
+## Dataset
 
-## Business Recommendations  
-• Use forecasts to guide inventory and staffing decisions  
-• Align marketing efforts with seasonal demand patterns  
-• Monitor profit volatility to improve margin stability  
-• Continuously update the model with new data for accuracy  
+Monthly aggregated retail sales data derived from transactional orders
 
----
+## Project Structure
 
-## Project Structure  
 retail-sales-forecasting/  
 ├── 01_data_source/  
 ├── 02_python/  
@@ -105,4 +98,4 @@ retail-sales-forecasting/
 ├── 05_powerbi/  
 ├── 06_screenshots/  
 ├── case_study.pdf  
-└── README.md  
+└── README.md
