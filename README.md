@@ -19,10 +19,12 @@ Business impact:
 
 ## Dashboard Highlight
 
-The forecast closely follows historical trends with clear seasonal patterns, 
-indicating stable short-term growth and predictable demand cycles.
+Sales show steady upward growth over time, indicating consistent demand and a stable revenue trajectory.
 
 ![Forecast Overview](./06_screenshots/forecast-overview.png)  
+
+Sales and profit generally move together over time, but profit shows greater volatility, highlighting fluctuations in margin performance.
+
 ![Sales Trends and Performance Drivers](./06_screenshots/sales-trends-and-performance-drivers.png)
 
 ## Case Study
