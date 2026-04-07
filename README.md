@@ -4,7 +4,7 @@ Time series analysis and forecasting project to predict future sales trends and 
 
 ---
 
-## Project Summary (30 seconds)
+## Project Summary
 
 Transformed transactional data into a structured time series dataset and built a forecasting model using Python (Prophet) to predict future sales performance.
 
